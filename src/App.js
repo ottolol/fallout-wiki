@@ -1,22 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Fallout: A Post Nuclear Role Playing Game (англ. Выпадение
+          радиоактивных осадков: постъядерная ролевая игра) — культовая
+          компьютерная ролевая игра в мире, пережившем ядерную войну,
+          разработанная студией Dragonplay и выпущенная 30 сентября 1997 года
+          компанией Interplay Productions. Одно из основных произведений
+          постапокалиптического жанра. Официально локализована и издана в России
+          15 февраля 2008 года компанией «1С»; ранее на российском рынке были
+          выпущены нелицензионные версии игры, переведённые студиями «Фаргус» и
+          «7 Волк», которая также известна как «Левая Корпорация» (точные даты
+          выходов неизвестны). Сюжет игры нелинеен и допускает разные варианты
+          прохождения, в том числе и присоединение главного героя к армии
+          мутантов. Здесь излагается наиболее распространённый вариант
+          прохождения.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
